@@ -130,7 +130,7 @@ INSERT INTO users (first_name, last_name, email, password, location, dept, is_ad
 ## Insert Multiple Rows
 
 ```sql
-INSERT INTO users (first_name, last_name, email, password, location, dept,  is_admin, register_date) values ('Fred', 'Smith', 'fred@gmail.com', '123456', 'New York', 'design', 0, now()), ('Jose', 'Rizal', 'Jose@gmail.com', '123456', 'New York', 'design', 0, now()),('Will', 'Smith', 'will@yahoo.com', '123456', 'Rhode Island', 'development', 1, now()),('Paula', 'Johnson', 'paula@yahoo.com', '123456', 'Massachusetts', 'sales', 0, now()),('Tom', 'Spears', 'tom@yahoo.com', '123456', 'Massachusetts', 'sales', 0, now());
+INSERT INTO users (first_name, last_name, email, password, location, dept,  is_admin, register_date) values ('Fred', 'Smith', 'fred@gmail.com', '123456', 'New York', 'design', 0, now()), ('Jose', 'Rizal', 'Jose@gmail.com', '123456', 'New York', 'design', 0, now()),('Will', 'Smith', 'will@yahoo.com', '123456', 'Snake Island', 'development', 1, now()),('Paula', 'Johnson', 'paula@yahoo.com', '123456', 'Massachusetts', 'sales', 0, now()),('Tom', 'Spears', 'tom@yahoo.com', '123456', 'Massachusetts', 'sales', 0, now());
 ```
 
 ## Select
